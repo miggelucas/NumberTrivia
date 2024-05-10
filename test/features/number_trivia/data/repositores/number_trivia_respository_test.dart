@@ -4,7 +4,7 @@ import 'package:dartz/dartz.dart';
 import 'package:numbers_trivia/core/error/exception.dart';
 import 'package:numbers_trivia/core/error/failures.dart';
 import 'package:numbers_trivia/core/network/network_infoble.dart';
-import 'package:numbers_trivia/features/number_trivia/data/dataSources/number_trivia_local_data_sourceble.dart';
+import 'package:numbers_trivia/features/number_trivia/data/dataSources/number_trivia_local_data_source.dart';
 import 'package:numbers_trivia/features/number_trivia/data/dataSources/number_trivia_remote_data_sourceble.dart';
 import 'package:numbers_trivia/features/number_trivia/data/models/number_trivia_model.dart';
 import 'package:numbers_trivia/features/number_trivia/data/repositories/number_trivia_repository.dart';
