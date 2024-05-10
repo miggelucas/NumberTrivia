@@ -3,9 +3,9 @@ import 'package:numbers_trivia/core/error/exception.dart';
 import 'package:numbers_trivia/core/error/failures.dart';
 import 'package:numbers_trivia/core/network/network_infoble.dart';
 import 'package:numbers_trivia/features/number_trivia/data/dataSources/number_trivia_local_data_source.dart';
-import 'package:numbers_trivia/features/number_trivia/data/dataSources/number_trivia_remote_data_sourceble.dart';
+import 'package:numbers_trivia/features/number_trivia/data/dataSources/number_trivia_remote_data_source.dart';
 import 'package:numbers_trivia/features/number_trivia/domain/entities/number_trivia.dart';
-import 'package:numbers_trivia/features/number_trivia/domain/repositories/NumberTriviaRepositoryble.dart';
+import 'package:numbers_trivia/features/number_trivia/domain/repositories/number_trivia_repository.dart';
 
 class NumberTriviaRepository implements NumberTriviaRepositoryble {
   final NumberTriviaRemoteDataSourceble remoteDataSource;
